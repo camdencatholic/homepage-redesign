@@ -11,5 +11,4 @@ export default defineConfig({
   integrations: [tailwind(), sitemap(), svelte(), react(), prefetch(), vue()],
   site: 'https://camdencatholic.github.io',
   base: "/homepage-redesign/",
-  outDir: "./docs"
 });
