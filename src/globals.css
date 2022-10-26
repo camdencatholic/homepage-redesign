@@ -1,0 +1,8 @@
+* {
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background-color: hsl(41, 72%, 40%);
+    color: hsl(60, 100%, 99%);
+}
