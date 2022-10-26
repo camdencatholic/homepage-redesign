@@ -3,7 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import list from 'bootstrap-icons/icons/list.svg'
 import x from 'bootstrap-icons/icons/x.svg'
 
-export default () => {
+export default (): JSX.Element => {
     const navigation = [
         { name: 'Give', href: '#' },
         { name: 'Calendar', href: '#' },
@@ -34,7 +34,7 @@ export default () => {
                       <img
                         alt="Your Company"
                         className="h-8 w-auto sm:h-10"
-                        src="/CCHSwithSealMaskedWhite.png"
+                        src="/homepage-redesign/CCHSwithSealMaskedWhite.png"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -76,7 +76,7 @@ export default () => {
                     <div>
                       <img
                         className="h-8 w-auto"
-                        src="/greenOnMask.png"
+                        src="/homepage-redesign/greenOnMask.png"
                         alt=""
                       />
                     </div>
@@ -144,7 +144,7 @@ export default () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <video controls autoPlay={true} muted={true} loop={true}
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full">
-            <source src="/hero_video.mp4" />
+            <source src="/homepage-redesign/hero_video.mp4" />
         </video>
       </div>
     </div>
