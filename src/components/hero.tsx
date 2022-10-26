@@ -113,7 +113,7 @@ export default () => {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl font-headliner">
                 <span className="block text-CCHSwhite xl:inline">Make your high school experience</span>{' '}
-                <span className="block text-CCHSwhite xl:inline">the best it can be.</span>
+                <span className="block text-CCHSwhite xl:inline underline">the best it can be.</span>
               </h1>
               <p className="mt-3 text-base text-CCHSwhite sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                 Come <span className='font-bold font-secondary'>IMAGINE </span><span className='font-bold font-secondary text-secondary'>| </span><span className='font-bold font-secondary'>CREATE </span><span className='font-bold font-secondary text-secondary'>| </span><span className='font-bold font-secondary'>INNOVATE</span> with us. <br/>
@@ -123,17 +123,17 @@ export default () => {
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-secondary px-8 py-3 text-base font-medium text-white hover:bg-yellow-700 md:py-4 md:px-10 md:text-lg"
                   >
-                    Get started
+                    Apply now
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-600 px-8 py-3 text-base font-medium text-white hover:bg-yellow-500 md:py-4 md:px-10 md:text-lg"
                   >
-                    Live demo
+                    Schedule an in-person tour
                   </a>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default () => {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <video controls autoPlay={true} muted={true}
+        <video controls autoPlay={true} muted={true} loop={true}
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full">
             <source src="/hero_video.mp4" />
         </video>
