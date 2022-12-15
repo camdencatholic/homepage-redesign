@@ -16,7 +16,7 @@ export default (): JSX.Element => {
         <div className="relative z-10 bg-primary pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
           <svg
             className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-CCHSwhite lg:block"
-            fill="#124813"
+            fill="#02492D"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
             aria-hidden="true"
